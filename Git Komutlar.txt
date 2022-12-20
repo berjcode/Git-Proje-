@@ -1,0 +1,74 @@
+git config --global user.name "abdullah "  Sistemdeki kullanıcının ismi
+
+git config --global user.email "abdblk2525@gmail.com"  Sistemdeki kullanıcın maili
+
+git config --global ile kontrol edebiliriz.
+
+
+
+git projesi oluşturma
+
+
+pwd : mevcut dizinin adresi
+
+ls :listeleme
+
+cd: geçiş yapmak için
+
+
+ mkdir: dosya oluşturma
+ 
+
+cd .. önceki dizine geçiş yapma
+
+clear terminali temizleme
+git init : git projesi olduğunu belirtiyoruz
+
+ls -a : gizli dosyaları listeler.
+
+git add . : git deposuna ekliyoruz tüm dosyaları ekler.
+
+
+git status : projedeki değişiklikleri gösteririr. 
+
+git commit -m "İskelet Oluşturuldu."
+
+git log : versiyonları listeler
+
+git diff: değişikliklier listeler yeşil olarak gösterir.
+
+git rm : sildiğimiz dosyayı geçiş bölgesine gönderecek.
+git checkout : silinmiş dosyayı geri kurtarma geri dönmeye yarar.
+git rm -r: yinelemeli silme : dosyayı çalışma dizininizden siler ve silme işlemini gerçekleştirir.
+
+git mv deneme.txt deneme2.txt ile ismini değiştiririz.
+git mv deneme2.txt dosyalar/ dosyalar klasörüne taşıma yapar.
+
+git reset head index : değişikliği geri almaya yarar.
+
+versiyon değiştirme:
+
+$ git checkout V042103ab84dae585c0fca2dad65cda7fa65c1ddd -- .
+Uzak Sunucuya gönderme
+
+$ git remote add githubRepo https://github.com/berjcode/Git-Proje-.git
+
+
+git push -u githubRepo master push gönder -u tüm dosyaları gönder
+
+.gitignore : takip edilmesini istemediğimiz dosyaları buraya girerek engelleyebiliriz.
+
+
+cat >> .gitignore control c
+
+git pull uzak sunucudaki dosyaları cek.
+
+git branch --all uzak sunucudaki dallarıda destekler.
+
+
+
+git branch yandal4
+
+branche gecme
+
+git checkout yandal3
